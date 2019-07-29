@@ -1,18 +1,35 @@
 .container{
   border: 1px dashed black;
-  background-color: #C9AAFF;
+  background-image: https://preppywallpapers.com/wp-content/uploads/2016/06/watercolor_iphone_wallpaper-header.jpg;
   text-align: center;
-  text
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 20px;
 }
 
-.container2 {
-  height:300px;
-  width:100px;
+img {
+  height: 300px;
   flex-direction: row;
   align-items: flex-start;
-  border:10px dashed;
+  align-content: space-between;
+}
+
+.churros {
+  width: 565px
 }
 
 .flowers {
   align-self: flex-start;
 }
+
+.fairylights {
+  height: 300px
+}
+
+.macarons {
+  width: 100px
+}
+
+body {
+  background-image: url("purple-watercolor.jpg");
+}
+      <img src="./photos/macarons.png" alt="macarons">
